@@ -48,14 +48,16 @@
                       Foreground="Black"/>
 
             <StackPanel Orientation="Horizontal"
-                        Spacing="15"
+                        Spacing="25"
                         HorizontalAlignment="Center">
                 <RadioButton Content="Opcja 1"
                              GroupName="Opcje"
+                             FontSize="24"
                              IsChecked="True"
                              Foreground="Black"/>
                 <RadioButton Content="Opcja 2"
                              GroupName="Opcje"
+                             FontSize="24"
                              Foreground="Black"/>
             </StackPanel>
 
