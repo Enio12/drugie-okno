@@ -43,6 +43,7 @@
             </Border>
 
             <CheckBox Content="Gotowe"
+                      FontSize="18"
                       HorizontalAlignment="Center"
                       Foreground="Black"/>
 
