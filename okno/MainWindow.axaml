@@ -44,6 +44,18 @@
             <CheckBox Content="Gotowe"
                       HorizontalAlignment="Center"
                       Foreground="Black"/>
+
+            <StackPanel Orientation="Horizontal"
+                        Spacing="15"
+                        HorizontalAlignment="Center">
+                <RadioButton Content="Opcja 1"
+                             GroupName="Opcje"
+                             IsChecked="True"
+                             Foreground="Black"/>
+                <RadioButton Content="Opcja 2"
+                             GroupName="Opcje"
+                             Foreground="Black"/>
+            </StackPanel>
         </StackPanel>
     </DockPanel>
 </Window>
