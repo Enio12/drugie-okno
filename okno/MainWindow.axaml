@@ -7,6 +7,7 @@
         Title="okno"
         Width="600"
         Height="400"
+        FontFamily="Verdana"
         Background="LightBlue"
         BorderBrush="Navy"
         BorderThickness="4">
@@ -37,7 +38,7 @@
                     HorizontalAlignment="Center">
                 <TextBlock Text="Warsztat"
                            FontSize="32"
-                           FontFamily="Arial"
+                           FontFamily="Verdana"
                            Foreground="Black"/>
             </Border>
 
