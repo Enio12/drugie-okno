@@ -8,15 +8,40 @@
         Background="LightBlue"
         BorderBrush="Navy"
         BorderThickness="4">
-    <Border BorderBrush="Navy"
-            BorderThickness="2"
-            CornerRadius="4"
-            Padding="20,10"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center">
-        <TextBlock Text="Warsztat"
-                   FontSize="32"
-                   FontFamily="Arial"
-                   Foreground="Black"/>
-    </Border>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Plik">
+                <MenuItem Header="_Nowy"/>
+                <MenuItem Header="_Otwórz"/>
+                <Separator/>
+                <MenuItem Header="Za_mknij"/>
+            </MenuItem>
+            <MenuItem Header="_Edycja">
+                <MenuItem Header="_Cofnij"/>
+                <MenuItem Header="_Ponów"/>
+            </MenuItem>
+            <MenuItem Header="P_omoc">
+                <MenuItem Header="_O programie"/>
+            </MenuItem>
+        </Menu>
+
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Spacing="20">
+            <Border BorderBrush="Navy"
+                    BorderThickness="2"
+                    CornerRadius="4"
+                    Padding="20,10"
+                    HorizontalAlignment="Center">
+                <TextBlock Text="Warsztat"
+                           FontSize="32"
+                           FontFamily="Arial"
+                           Foreground="Black"/>
+            </Border>
+
+            <CheckBox Content="Gotowe"
+                      HorizontalAlignment="Center"
+                      Foreground="Black"/>
+        </StackPanel>
+    </DockPanel>
 </Window>
